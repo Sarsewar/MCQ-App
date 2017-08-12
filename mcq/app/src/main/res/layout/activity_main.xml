@@ -1,0 +1,172 @@
+ <ScrollView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    tools:ignore="ScrollViewSize,HardcodedText" >
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:orientation="vertical"
+       android:layout_marginTop="10dp"
+       android:layout_marginLeft="10dp"
+android:layout_marginRight="10dp"
+       android:weightSum="1">
+
+       <TextView
+           style="?android:attr/listSeparatorTextViewStyle"
+           android:divider="?android:dividerHorizontal"
+           android:id="@+id/t1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="1.WWW stands for ?"
+           android:layout_marginTop="20dp"
+           android:textStyle="normal|bold"
+           android:textSize="16sp" />
+
+       <RadioGroup
+           android:id="@+id/rg1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:button="@drawable/radio_selector"
+           android:layout_marginTop="20dp"
+           android:orientation="vertical" >
+
+
+
+       </RadioGroup>
+       
+       <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+
+           android:id="@+id/t2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="2.Where is RAM located ?"
+           android:layout_marginTop="20dp"
+           android:textStyle="normal|bold"
+           android:textSize="16sp" />
+
+       <RadioGroup
+           android:id="@+id/rg2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal" 
+            android:layout_marginTop="20dp"
+           >
+
+
+
+       </RadioGroup>
+       
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+           android:id="@+id/t3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="3.If a computer has more than one processor then it is known as ? "
+           android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif"
+            android:textStyle="normal|bold"
+            android:textSize="16sp" />
+
+       <RadioGroup
+           android:id="@+id/rg3"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:orientation="vertical" >
+
+
+           
+           <RadioButton
+               android:id="@+id/rc3"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:button="@drawable/radio_selector"
+               android:text="Multithreaded" />
+
+       </RadioGroup>
+
+       <TextView
+          android:id="@+id/t4"
+           style="?android:attr/listSeparatorTextViewStyle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="4. Full form of URL is ?"
+          android:layout_marginTop="20dp"
+           android:textStyle="normal|bold"
+           android:textSize="16sp" />
+
+       <RadioGroup
+           android:id="@+id/rg4"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:orientation="vertical" >
+
+
+       </RadioGroup>
+
+      
+       
+        <TextView
+            style="?android:attr/listSeparatorTextViewStyle"
+           android:id="@+id/t5"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="5. In which of the following form, data is stored in computer ?"
+           android:layout_marginTop="20dp"
+            android:textStyle="normal|bold"
+            android:textSize="16sp" />
+
+       <RadioGroup
+           android:id="@+id/rg5"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal" >
+
+
+       </RadioGroup>
+
+
+       <TextView
+           style="?android:attr/listSeparatorTextViewStyle"
+           android:id="@+id/t6"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="6.Technology used to provide internet by transmitting data over wires of telephone network is ?"
+           android:layout_marginTop="20dp"
+           android:textStyle="normal|bold"
+           android:textSize="16sp" />
+
+       <RadioGroup
+           android:id="@+id/rg6"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:orientation="horizontal"
+           >
+
+
+       </RadioGroup>
+
+
+       <Button
+           style="?android:attr/listSeparatorTextViewStyle"
+   			android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/button"
+           android:text="submit"
+           android:layout_marginTop="10dp"
+           android:layout_marginLeft="135dp"
+            android:background="@color/colorPrimary"
+            tools:ignore="InefficientWeight,RtlHardcoded,RtlSymmetry"
+           android:layout_marginBottom="20dp"
+           android:paddingLeft="20dip" />
+   </LinearLayout>     
+    </ScrollView>
